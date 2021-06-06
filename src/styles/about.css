@@ -1,0 +1,16 @@
+.about .slider-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    cursor: grabbing;
+    scroll-snap-type: x mandatory; 
+    margin: 2rem 0;
+}
+.slider-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-wrapper .slides{
+    padding: 0 1rem;
+}
